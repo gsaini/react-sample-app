@@ -12,7 +12,7 @@ export default class Contact extends React.Component {
     render() {
         return (
             <div className="contact-container">
-                Contact...
+                <h1>Contact</h1>
             </div>
         );
     }
