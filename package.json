@@ -21,6 +21,7 @@
   "homepage": "https://github.com/gsaini/react-sample-app#readme",
   "dependencies": {
     "history": "^1.17.0",
+    "ip": "^1.1.4",
     "react": "^15.3.2",
     "react-dom": "^15.3.2",
     "react-router": "^3.0.0"
@@ -33,11 +34,9 @@
     "babel-preset-react-hmre": "^1.1.1",
     "webpack": "^1.13.3",
     "webpack-dev-server": "^1.16.2",
-    "webpack-devserver": "0.0.6",
     "webpack-hot-middleware": "^2.13.2"
   },
   "scripts": {
-    "dev": "./node_modules/.bin/webpack-dev-server --content-base app --inline --hot",
-    "build": "webpack -p"
+    "start": "webpack-dev-server --content-base app --inline --hot"
   }
 }
