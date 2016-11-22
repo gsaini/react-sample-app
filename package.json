@@ -37,6 +37,7 @@
     "webpack-hot-middleware": "^2.13.2"
   },
   "scripts": {
-    "start": "webpack-dev-server --content-base app --inline --hot"
+    "start": "webpack-dev-server --content-base app --inline --hot",
+    "build": "webpack -p"
   }
 }
